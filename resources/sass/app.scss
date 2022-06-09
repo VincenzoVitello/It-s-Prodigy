@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ms_dashboard{
+    background-color: #acd0f6;
+    height: 100vh;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.prodigy_logo{
+    width: 100%;
+    padding-top: 20px;
+}
+.ms_title_landing{
+    font-size: 20px;
+}
+#registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+.ms_btn{
+    width: 130px;
+}
+.ms_create_form{
+    width: 500px;
+    margin-bottom: 20px;
+}
+#descrizione_lavoro{
+    height: 100px;
+}
+.cliente_img{
+    max-width: 200px;
+    max-height: auto;
+}
+.dettagli_preventivo{
+    height: 300px;
+}
